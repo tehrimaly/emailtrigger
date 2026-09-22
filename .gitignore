@@ -1,0 +1,10 @@
+node_modules/
+.env
+*.log
+dist/
+build/
+
+# local OAuth token cache (never commit real tokens)
+backend/data/tokens.json
+backend/data/*.json
+!backend/data/.gitkeep
